@@ -135,7 +135,7 @@ h1 {
 
 .sign-up {
     background-color: #fff;
-    padding: 70px 30px;
+    padding: 50px 30px;
     margin: 0px 20px;
     border-radius: 5px;
     box-shadow: #0e0e0e9a 5px 10px 20px;
@@ -408,6 +408,8 @@ input[type="text"], input[type="email"], input[type="password"] {
 
     .img-logo {
         margin-left: 30px;
+        width: 120px;
+        height: 62px;
     }
 
     .menu {
@@ -423,6 +425,11 @@ input[type="text"], input[type="email"], input[type="password"] {
     .main {
         margin-top: 100px;
     }
+
+    .footer-content {
+        width: 540px;
+        column-gap: 65px;
+    }
 }
 
 @media screen and (min-width: 310px) and (max-width: 550px) {
@@ -432,10 +439,6 @@ input[type="text"], input[type="email"], input[type="password"] {
         align-items: center;
     }
     
-    .img-logo {
-        width: 112px;
-        height: 62px;
-    }
     .side-bar {
         width: 100%;
     }
@@ -448,14 +451,119 @@ input[type="text"], input[type="email"], input[type="password"] {
         display: block;
     }
 
+    h1 {
+        font-size: 23px;
+    }
+
+    .sign-up {
+        padding: 40px 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .form {
+        margin-top: 15px;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        font-size: 10px;
+    }
+
+    .button a {
+        width: 240px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .checks {
+        margin-top: 10px;
+    }
+
+    .check-placeholder {
+        font-size: 10px;
+    }
+
     .footer-content {
-        width: 310px;
-        column-gap: 65px;
+        width: 260px;
+        column-gap: 55px;
     }
 
     .footer-logo img {
-        width: 82px;
-        height: 45px;
+        width: 62px;
+        height: 35px;
+    }
+
+    .footer-details {
+        column-gap: 10px;
+    }
+
+    .footer-details p {
+        font-size: 9px;
+    }
+
+    .footer-links {
+        column-gap: 6px;
+    }
+
+    .footer-links-svg svg {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .sign-up {
+        padding: 40px 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .form {
+        margin-top: 15px;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        font-size: 10px;
+    }
+
+    .button a {
+        width: 240px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .checks {
+        margin-top: 10px;
+    }
+
+    .check-placeholder {
+        font-size: 10px;
+    }
+
+    .footer-content {
+        width: 210px;
+        column-gap: 35px;
+    }
+
+    .footer-logo img {
+        width: 42px;
+        height: 25px;
     }
 
     .footer-details {
@@ -463,16 +571,15 @@ input[type="text"], input[type="email"], input[type="password"] {
     }
 
     .footer-details p {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .footer-links {
-        column-gap: 8px;
+        column-gap: 5px;
     }
 
     .footer-links-svg svg {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
     }
 }
-

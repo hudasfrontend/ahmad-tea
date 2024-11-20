@@ -126,7 +126,7 @@ h1 {
 }
 
 .first-section {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,6 +404,8 @@ a.link:hover {
 
     .img-logo {
         margin-left: 30px;
+        width: 120px;
+        height: 62px;
     }
 
     .menu {
@@ -420,6 +422,10 @@ a.link:hover {
         margin-top: 100px;
     }
 
+    .footer-content {
+        width: 540px;
+        column-gap: 65px;
+    }
 }
 
 @media screen and (min-width: 310px) and (max-width: 550px) {
@@ -429,10 +435,6 @@ a.link:hover {
         align-items: center;
     }
     
-    .img-logo {
-        width: 112px;
-        height: 62px;
-    }
     .side-bar {
         width: 100%;
     }
@@ -445,14 +447,119 @@ a.link:hover {
         display: block;
     }
 
+    .first-section {
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .login {
+        padding: 40px 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .form {
+        margin-top: 15px;
+    }
+    
+    input[type="email"], input[type="password"] {
+        font-size: 10px;
+    }
+
+    .button a {
+        width: 220px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .plinks {
+        font-size: 12px;
+    }
+
     .footer-content {
-        width: 310px;
-        column-gap: 65px;
+        width: 260px;
+        column-gap: 55px;
     }
 
     .footer-logo img {
-        width: 82px;
-        height: 45px;
+        width: 62px;
+        height: 35px;
+    }
+
+    .footer-details {
+        column-gap: 10px;
+    }
+
+    .footer-details p {
+        font-size: 9px;
+    }
+
+    .footer-links {
+        column-gap: 6px;
+    }
+
+    .footer-links-svg svg {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    .first-section {
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .login {
+        padding: 40px 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .form {
+        margin-top: 15px;
+    }
+    
+    input[type="email"], input[type="password"] {
+        font-size: 10px;
+    }
+
+    .button a {
+        width: 220px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .plinks {
+        font-size: 12px;
+    }
+    
+    .footer-content {
+        width: 210px;
+        column-gap: 35px;
+    }
+
+    .footer-logo img {
+        width: 42px;
+        height: 25px;
     }
 
     .footer-details {
@@ -460,16 +567,15 @@ a.link:hover {
     }
 
     .footer-details p {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .footer-links {
-        column-gap: 8px;
+        column-gap: 5px;
     }
 
     .footer-links-svg svg {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
     }
 }
-

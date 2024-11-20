@@ -425,6 +425,8 @@ select {
 
     .img-logo {
         margin-left: 30px;
+        width: 120px;
+        height: 62px;
     }
 
     .menu {
@@ -455,13 +457,87 @@ select {
     .button {
         width: 230px;
     }
+
+    .footer-content {
+        width: 540px;
+        column-gap: 65px;
+    }
 }
 
-@media screen and (max-width: 370px) {
-    .right {
-        padding: 30px 13px;
+@media screen and (min-width: 310px) and (max-width: 550px) {
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .side-bar {
+        width: 100%;
     }
 
+    .side-bar .close-icon {
+        margin-right: 250px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .title-section h1 {
+        font-size: 27px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #parag {
+        font-size: 15px;
+    }
+
+    #form-title {
+        font-size: 15px;
+    }
+
+    input[type="text"], input[type="email"], #message, textarea, select {
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 17px;
+        padding: 7px;
+        width: 200px;
+    }
+
+    .footer-content {
+        width: 260px;
+        column-gap: 55px;
+    }
+
+    .footer-logo img {
+        width: 62px;
+        height: 35px;
+    }
+
+    .footer-details {
+        column-gap: 10px;
+    }
+
+    .footer-details p {
+        font-size: 9px;
+    }
+
+    .footer-links {
+        column-gap: 6px;
+    }
+
+    .footer-links-svg svg {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 309px) {
     form {
         display: flex;
         flex-direction: column;
@@ -470,6 +546,27 @@ select {
 
     .form-input {
         width: 30vh;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #parag {
+        font-size: 15px;
+    }
+
+    #form-title {
+        font-size: 15px;
+    }
+
+    input[type="text"], input[type="email"], #message, textarea, select {
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 15px;
+        padding: 7px;
     }
 
     .message-parag {
@@ -483,39 +580,15 @@ select {
     .button {
         width: 130px;
     }
-}
-
-@media screen and (min-width: 310px) and (max-width: 550px) {
-    .nav-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .img-logo {
-        width: 112px;
-        height: 62px;
-    }
-    .side-bar {
-        width: 100%;
-    }
-
-    .side-bar .close-icon {
-        margin-right: 250px;
-    }
-
-    .menu {
-        display: block;
-    }
 
     .footer-content {
-        width: 310px;
-        column-gap: 65px;
+        width: 210px;
+        column-gap: 35px;
     }
 
     .footer-logo img {
-        width: 82px;
-        height: 45px;
+        width: 42px;
+        height: 25px;
     }
 
     .footer-details {
@@ -523,17 +596,15 @@ select {
     }
 
     .footer-details p {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .footer-links {
-        column-gap: 8px;
+        column-gap: 5px;
     }
 
     .footer-links-svg svg {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
     }
 }
-
-
